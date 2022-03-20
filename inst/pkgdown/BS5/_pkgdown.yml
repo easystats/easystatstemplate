@@ -1,0 +1,11 @@
+template:
+  bslib:
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
+    code_font: {google: "JetBrains Mono"}
+  opengraph:
+    image:
+      src: man/figures/card.png
+    twitter:
+      creator: "@easystats4u"
+      card: summary_large_image

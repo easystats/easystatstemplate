@@ -1,0 +1,15 @@
+Package: easystatstemplate
+Title: Template package for 'easystats' pkgdown websites
+Version: 0.0.0.9000
+Authors@R: 
+    person("Indrajeet", "Patil", , "patilindrajeet.science@gmail.com", role = c("aut", "cre"))
+Description: This is a template package to be used for creating 'pkgdown' websites
+    for all core packages in the 'easystats' ecosystem.
+License: GPL3 + file LICENSE
+URL: https://github.com/easystats/easystatstemplate
+BugReports: https://github.com/easystats/easystatstemplate/issues
+Imports: 
+    pkgdown
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
