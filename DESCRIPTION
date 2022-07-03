@@ -1,6 +1,6 @@
 Package: easystatstemplate
 Title: Template package for 'easystats' pkgdown websites
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Indrajeet", "Patil", , "patilindrajeet.science@gmail.com", role = c("aut", "cre"))
 Description: This is a template package to be used for creating 'pkgdown' websites
