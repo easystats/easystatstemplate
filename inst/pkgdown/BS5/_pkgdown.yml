@@ -10,10 +10,11 @@ template:
       creator: "@easystats4u"
       card: summary_large_image
 
-development:
-  #mode: auto
-  version_label: default
-  version_tooltip: "Version"
+# TODO: first turn it on for individual packages and then uncomment it here
+# development:
+#   mode: auto
+#   version_label: default
+#   version_tooltip: "Version"
 
 navbar:
   structure:
