@@ -38,7 +38,7 @@ navbar:
       href: http://twitter.com/easystats4u
       aria-label: Twitter
     easystats:
-      icon: fa fa-r-project
+      icon: fab fa-r-project
       text: easystats
       menu:
       - text: insight
