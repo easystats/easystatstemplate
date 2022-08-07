@@ -16,6 +16,26 @@ template:
 #   version_label: default
 #   version_tooltip: "Version"
 
+# List all possible authors alphabetically.
+# Not everyone is present in every package, so the appropriate entries will be
+# picked up by `{pkgdown}`.
+authors:
+  Brenton M. Wiernik:
+    href: https://wiernik.org/
+  Daniel Lüdecke:
+    href: https://github.com/strengejacke
+  Dominique Makowski:
+    href: https://dominiquemakowski.github.io/
+  Etienne Bacher:
+    href: https://www.etiennebacher.com/
+  Indrajeet Patil:
+    href: https://sites.google.com/site/indrajeetspatilmorality/
+  Mattan S. Ben-Shachar:
+    href: https://home.msbstats.info/
+  Vincent Arel-Bundock:
+    href: https://arelbundock.com/
+
+
 navbar:
   structure:
     left:  [reference, articles, news]
