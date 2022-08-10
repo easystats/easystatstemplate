@@ -1,4 +1,5 @@
 template:
+  bootstrap: 5
   bslib:
     base_font: {google: "Roboto"}
     heading_font: {google: "Roboto Slab"}
