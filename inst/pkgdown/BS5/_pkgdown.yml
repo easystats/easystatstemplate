@@ -11,10 +11,10 @@ template:
       card: summary_large_image
 
 # TODO: first turn it on for individual packages and then uncomment it here
-# development:
-#   mode: auto
-#   version_label: default
-#   version_tooltip: "Version"
+development:
+  #mode: auto
+  version_label: default
+  version_tooltip: "Version"
 
 # List all possible authors alphabetically.
 # Not everyone is present in every package, so the appropriate entries will be
