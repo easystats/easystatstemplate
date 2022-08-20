@@ -5,12 +5,12 @@ body {
 
 // section descriptions should stand out from description list entries
 // These cover both references and articles index pages
-
-div[class="section level2"] > p, // reference index page
-div[class="section "] > p // articles index page
+div[class="section level2"] > p.section-desc + p, // reference index page
+div[class="section "] > p.section-desc + p // articles index page
 {
     font-size: 1.3rem !important;
 }
+
 
 // color for links
 $link-color: #03638e;
