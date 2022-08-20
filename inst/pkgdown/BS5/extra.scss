@@ -4,8 +4,12 @@ body {
 }
 
 // section descriptions should stand out from description list entries
-p.section-desc {
-    font-size: 1rem !important;
+// These cover both references and articles index pages
+
+div[class="section level2"] > p, // reference index page
+div[class="section "] > p // articles index page
+{
+    font-size: 1.3rem !important;
 }
 
 // color for links
