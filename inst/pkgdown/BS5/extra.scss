@@ -3,6 +3,11 @@ body {
     font-size: 0.90rem !important;
 }
 
+// section descriptions should stand out from description list entries
+p.section-desc {
+    font-size: 1rem !important;
+}
+
 // color for links
 $link-color: #03638e;
 
