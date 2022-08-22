@@ -10,11 +10,16 @@ template:
       creator: "@easystats4u"
       card: summary_large_image
 
-# TODO: first turn it on for individual packages and then uncomment it here
 development:
   #mode: auto
   version_label: default
   version_tooltip: "Version"
+
+# TODO: Replace with URL to the book, if we ever write one!
+home:
+  links:
+  - text: Learn more
+    href: https://easystats.github.io/easystats/index.html
 
 # List all possible authors alphabetically.
 # Not everyone is present in every package, so the appropriate entries will be
