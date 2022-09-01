@@ -1,16 +1,15 @@
+/* ------------- text ------------------ */
+
 // font size for text
 body {
     font-size: 0.90rem !important;
 }
 
-// section descriptions should stand out from description list entries
-// These cover both references and articles index pages
-div[class="section level2"] > p.section-desc + p, // reference index page
-div[class="section "] > p.section-desc + p // articles index page
-{
-    font-size: 1.15rem !important;
+.nav-text.text-default.me-auto {
+    color: rgba(0,0,0,0.9) !important;
 }
 
+/* ------------- links ------------------ */
 
 // color for links
 $link-color: #03638e;
@@ -25,7 +24,35 @@ code a:any-link {
     color: $link-color
 }
 
-.nav-text.text-default.me-auto {
-    color: rgba(0,0,0,0.9) !important;
+/* ------------- section desciptions ------------------ */
+
+// Section descriptions should stand out from description list entries
+// These cover both references and articles index pages
+div[class="section level2"] > p.section-desc + p, // reference index page
+div[class="section "] > p.section-desc + p // articles index page
+{
+    font-size: 1.15rem !important;
+}
+
+// Indent text included in descriptor list so that similar functions are
+// visually grouped together.
+div[class="section level2"] > dl,
+div[class="section "] > dl
+{
+    text-indent: 15px !important;
+}
+
+// There shouldn't be so much margin between the second (for reference index) or
+// third (for articles index) level section header and the section descriptor.
+div[class="section level2"] > p.section-desc, // reference index page
+div[class="section "] > p.section-desc // articles index page
+{
+    margin-bottom: 0.2rem !important;
+}
+
+div[class="section level2"] > h2, // reference index page
+div[class="section "] > h3 // articles index page
+{
+    margin-bottom: 0px !important;
 }
 
