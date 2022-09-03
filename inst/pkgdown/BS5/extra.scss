@@ -36,10 +36,10 @@ div[class="section "] > p.section-desc + p // articles index page
 
 // Indent text included in descriptor list so that similar functions are
 // visually grouped together.
-div[class="section level2"] > dl,
-div[class="section "] > dl,
 div[class="section level2"] > dt,
-div[class="section "] > dt
+div[class="section "] > dd,
+div[class="section level2"] > dt,
+div[class="section "] > dd
 {
     text-indent: 15px !important;
 }
@@ -52,6 +52,8 @@ div[class="section "] > p.section-desc // articles index page
     margin-bottom: 0.2rem !important;
 }
 
+// But don't be too aggressive in this margin tweaking because, if there is no
+// section description provided, this can look odd.
 /*
 div[class="section level2"] > h2, // reference index page
 div[class="section "] > h3 // articles index page
