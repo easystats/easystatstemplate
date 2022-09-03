@@ -36,9 +36,13 @@ div[class="section "] > p.section-desc + p // articles index page
 
 // Indent text included in descriptor list so that similar functions are
 // visually grouped together.
+// reference
+div[class="section level2"] > dl,
 div[class="section level2"] > dt,
-div[class="section "] > dd,
-div[class="section level2"] > dt,
+div[class="section level2"] > dd,
+// articles
+div[class="section "] > dl,
+div[class="section "] > dt,
 div[class="section "] > dd
 {
     text-indent: 15px !important;
