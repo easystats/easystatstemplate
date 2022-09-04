@@ -45,7 +45,9 @@ div[class="section "] > dl,
 div[class="section "] > dt,
 div[class="section "] > dd
 {
-    text-indent: 15px !important;
+    padding-left: 15px !important;
+    /* text-indent: 15px !important; */
+    /* text-indent: 15px hanging each-line !important; */
 }
 
 // There shouldn't be so much margin between the second (for reference index) or
