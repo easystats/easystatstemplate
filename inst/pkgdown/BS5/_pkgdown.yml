@@ -48,7 +48,7 @@ authors:
 navbar:
   structure:
     left:  [reference, articles, news]
-    right: [easystats, twitter, github]
+    right: [search, easystats, twitter, github]
   components:
     reference:
       icon: fa fa-file-code
