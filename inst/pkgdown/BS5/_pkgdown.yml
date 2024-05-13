@@ -1,8 +1,8 @@
 template:
   bslib:
-    base_font: {google: "Roboto"}
-    heading_font: {google: "Roboto Slab"}
-    code_font: {google: "JetBrains Mono"}
+    base_font: { google: "Roboto" }
+    heading_font: { google: "Roboto Slab" }
+    code_font: { google: "JetBrains Mono" }
   opengraph:
     image:
       src: man/figures/card.png
@@ -18,8 +18,8 @@ development:
 # TODO: Replace with URL to the book, if we ever write one!
 home:
   links:
-  - text: Learn more
-    href: https://easystats.github.io/easystats/index.html
+    - text: Learn more
+      href: https://easystats.github.io/easystats/index.html
 
 # List all possible authors alphabetically.
 # Not everyone is present in every package, so the appropriate entries will be
@@ -44,10 +44,9 @@ authors:
   Rémi Thériault:
     href: https://remi-theriault.com/
 
-
 navbar:
   structure:
-    left:  [reference, articles, news]
+    left: [reference, articles, news]
     right: [search, easystats, twitter, github]
   components:
     reference:
@@ -74,25 +73,25 @@ navbar:
       text: easystats
       aria-label: easystats
       menu:
-      - text: bayestestR
-        href: https://easystats.github.io/bayestestR/
-      - text: correlation
-        href: https://easystats.github.io/correlation/
-      - text: datawizard
-        href: https://easystats.github.io/datawizard/
-      - text: easystats
-        href: https://easystats.github.io/easystats/
-      - text: effectsize
-        href: https://easystats.github.io/effectsize/
-      - text: insight
-        href: https://easystats.github.io/insight/
-      - text: modelbased
-        href: https://easystats.github.io/modelbased/
-      - text: performance
-        href: https://easystats.github.io/performance/
-      - text: parameters
-        href: https://easystats.github.io/parameters/
-      - text: report
-        href: https://easystats.github.io/report/
-      - text: see
-        href: https://easystats.github.io/see/
+        - text: bayestestR
+          href: https://easystats.github.io/bayestestR/
+        - text: correlation
+          href: https://easystats.github.io/correlation/
+        - text: datawizard
+          href: https://easystats.github.io/datawizard/
+        - text: easystats
+          href: https://easystats.github.io/easystats/
+        - text: effectsize
+          href: https://easystats.github.io/effectsize/
+        - text: insight
+          href: https://easystats.github.io/insight/
+        - text: modelbased
+          href: https://easystats.github.io/modelbased/
+        - text: performance
+          href: https://easystats.github.io/performance/
+        - text: parameters
+          href: https://easystats.github.io/parameters/
+        - text: report
+          href: https://easystats.github.io/report/
+        - text: see
+          href: https://easystats.github.io/see/
