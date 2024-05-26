@@ -5,25 +5,6 @@ body {
     font-size: 0.90rem !important;
 }
 
-.nav-text.text-default.me-auto {
-    color: rgba(0,0,0,0.9) !important;
-}
-
-/* ------------- links ------------------ */
-
-// color for links
-$link-color: #03638e;
-
-a {
-    text-decoration: none !important;
-    color: $link-color
-}
-
-code a:any-link {
-    text-decoration: none !important;
-    color: $link-color
-}
-
 /* ------------- section desciptions ------------------ */
 
 // Section descriptions should stand out from description list entries
@@ -55,13 +36,3 @@ div[class="section "] > p.section-desc // articles index page
 {
     margin-bottom: 0.2rem !important;
 }
-
-// But don't be too aggressive in this margin tweaking because, if there is no
-// section description provided, this can look odd.
-/*
-div[class="section level2"] > h2, // reference index page
-div[class="section "] > h3 // articles index page
-{
-    margin-bottom: 0px !important;
-}
-*/
