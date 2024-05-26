@@ -1,19 +1,4 @@
-/* ------------- text ------------------ */
-
-// font size for text
-body {
-    font-size: 0.90rem !important;
-}
-
 /* ------------- section desciptions ------------------ */
-
-// Section descriptions should stand out from description list entries
-// These cover both references and articles index pages
-div[class="section level2"] > p.section-desc + p, // reference index page
-div[class="section "] > p.section-desc + p // articles index page
-{
-    font-size: 1.05rem !important;
-}
 
 // Indent text included in descriptor list so that similar functions are
 // visually grouped together.
