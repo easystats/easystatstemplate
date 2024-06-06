@@ -11,8 +11,8 @@ template:
       creator: "@easystats4u"
       card: summary_large_image
 
-development:
-  mode: auto
+# development:
+#   mode: auto
 
 home:
   links:
