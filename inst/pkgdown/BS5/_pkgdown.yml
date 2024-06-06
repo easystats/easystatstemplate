@@ -12,11 +12,8 @@ template:
       card: summary_large_image
 
 development:
-  #mode: auto
-  version_label: default
-  version_tooltip: "Version"
+  mode: auto
 
-# TODO: Replace with URL to the book, if we ever write one!
 home:
   links:
     - text: Learn more
